@@ -15,8 +15,6 @@ class UserSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         model = get_user_model()
-        print(model.te)
-        print(model.objects.create_user)
         user = model.objects.create_user(
             username=validated_data['username'],
             email=validated_data['email'],
