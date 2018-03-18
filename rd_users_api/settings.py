@@ -155,4 +155,4 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Choose a config file to load/overwrite additional settings from.
 # Comment out the line below to use this file only
 
-# from app.config.heroku import *
+from app.config.heroku import *

@@ -1,7 +1,7 @@
 import os
 
 DEBUG = False
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['rd-users-api.herokuapp.com']
 
 
 SECRET_KEY = os.environ["SECRET_KEY"]
