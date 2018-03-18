@@ -150,4 +150,4 @@ REST_FRAMEWORK = {
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-# from .heroku import *
+from app.config.heroku import *
