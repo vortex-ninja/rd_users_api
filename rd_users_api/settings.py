@@ -150,4 +150,8 @@ REST_FRAMEWORK = {
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+
+# Choose a config file to load/overwrite additional settings from.
+# Comment out the line below to use this file only
+
 from app.config.heroku import *
