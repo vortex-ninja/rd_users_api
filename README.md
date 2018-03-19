@@ -3,14 +3,14 @@
 ### LIVE DEMO
 https://rd-users-api.herokuapp.com/
 
-## OVERVIEW
+### OVERVIEW
 Basic REST API that manages users in a django web application.
 
-## AUTHENTICATION
+### AUTHENTICATION
 API uses JWT token authentication and session based authentication.
 I've added session authentication so it's easy to access protected endpoints from web browser.
 
-## ENDPOINTS
+### ENDPOINTS
 
 1. `/`, `/users`
  - returns a list of users in a system,
@@ -36,12 +36,12 @@ I've added session authentication so it's easy to access protected endpoints fro
  - logout functionality for session based authentication
 
 
-## HOW TO USE
+### HOW TO USE
 
 API is available through browser for easy use by humans.
 It can be also accessed programatically by sending requests to the specified endpoints with tools like CURL, Postman or httpie.
 
-## EXAMPLE USING CURL
+### EXAMPLE USING CURL
 
 So let's say we would like to see a list of all users registered in the system.
 First we need to create an account. To do that we send a POST request to the `/register` endpoint with required data (username, email and password).
