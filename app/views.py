@@ -47,6 +47,6 @@ class CreateUserView(generics.CreateAPIView):
 
         # Include token in the response
 
-        response = {"created_user": serializer.data, "token" : token}
+        response = {"created_user": serializer.data, "token": token}
 
         return Response(response, status=status.HTTP_201_CREATED, headers=headers)
