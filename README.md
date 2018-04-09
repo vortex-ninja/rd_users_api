@@ -5,6 +5,7 @@ https://rd-users-api.herokuapp.com/
 
 ### OVERVIEW
 Basic REST API that manages users in a django web application.
+Project made as a task in a job recruitment process.
 
 ### AUTHENTICATION
 API uses JWT token authentication and session based authentication.
